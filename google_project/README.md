@@ -45,6 +45,7 @@ No modules.
 | <a name="input_project_services"></a> [project\_services](#input\_project\_services) | List of google\_project\_service APIs to enable. | `list(string)` | `[]` | no |
 | <a name="input_realm"></a> [realm](#input\_realm) | Realm is a grouping of environments being one of: global, nonprod, prod | `string` | `""` | no |
 | <a name="risk_level"></a> [risk\_level](#input\_risk\_level) | The risk level of the project, usually comes from an RRA | `string` | `"low"` | yes |
+| <a name="input_log_retention"></a> [log\_retention\_days](#input\_log\_retention\_days) | The retention period in days for project logs | `number` | `30` | no |
 
 ## Outputs
 

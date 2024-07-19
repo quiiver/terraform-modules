@@ -61,6 +61,7 @@ resource "google_logging_project_bucket_config" "project" {
   project          = local.project_id
   location         = "global"
   bucket_id        = "_Default"
+  retention_days   = var.log_rentention_days
   enable_analytics = var.log_analytics
 }
 

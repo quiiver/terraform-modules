@@ -102,3 +102,9 @@ variable "log_analytics" {
   description = "Enable log analytics for _Default log bucket"
   default     = false
 }
+
+variable "log_rentention_days" {
+  type        = number
+  description = "Log bucket rentention in days"
+  default     = 30
+}
